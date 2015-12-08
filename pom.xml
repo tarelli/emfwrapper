@@ -84,6 +84,7 @@
 						<Import-Package>
 							*
 						</Import-Package>
+						<Provide-Capability>osgi.ee;osgi.ee=JavaSE;version=1.7</Provide-Capability> 
 					</instructions>
 				</configuration>
 			</plugin>
