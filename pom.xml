@@ -80,7 +80,7 @@
 						<Bundle-Activator>emfwrapper.Activator</Bundle-Activator>
 						<Include-Resource>
 							{maven-resources}
-						</Include-Resource>
+						</Include-Resource> 
 						<Import-Package>
 							*
 						</Import-Package>
