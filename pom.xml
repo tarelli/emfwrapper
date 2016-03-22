@@ -26,6 +26,11 @@
 			<artifactId>org.eclipse.emf.ecore.xmi</artifactId>
 			<version>2.11.0-v20150123-0347</version>
 		</dependency>
+		<dependency>
+			<groupId>org.eclipse.emf</groupId>
+			<artifactId>org.eclipse.emf.edit</artifactId>
+			<version>2.11.0-v20150123-0357</version>
+		</dependency>
 
 	</dependencies>
 	<build>
@@ -80,11 +85,11 @@
 						<Bundle-Activator>emfwrapper.Activator</Bundle-Activator>
 						<Include-Resource>
 							{maven-resources}
-						</Include-Resource> 
+						</Include-Resource>
 						<Import-Package>
 							*
 						</Import-Package>
-						<Provide-Capability>osgi.ee;osgi.ee=JavaSE;version=1.7</Provide-Capability> 
+						<Provide-Capability>osgi.ee;osgi.ee=JavaSE;version=1.7</Provide-Capability>
 					</instructions>
 				</configuration>
 			</plugin>
